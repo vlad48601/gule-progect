@@ -1,0 +1,9 @@
+.sidebar {
+  width: 500px;
+  height: 100px;
+  background: #f00;
+  @media (min-width: 992px) {
+    width: 400px;
+    height: 50px;
+  }
+}

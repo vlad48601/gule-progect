@@ -1,0 +1,13 @@
+@import "variables";
+@import "variables";
+@import "base";
+
+body {
+  background: $color;
+  display: grid;
+  transition: all 0.2s ease-in;
+}
+
+@import "blocks/header";
+@import "blocks/sidebar";
+@import "blocks/footer";
